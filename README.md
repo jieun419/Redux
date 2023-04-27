@@ -91,6 +91,13 @@ const increase = () => {
 dispatch( { type: 'INCREASE' } )
 ```
 
+## 부모 요소 알아보기
+```jsx
+// 부모 요소 알아보기
+e.target.parentNode
+// 부모 요소의 아이디 값 알아보기
+e.target.parentNode.id
+```
 
 
 - state는 새로운 값을 리턴한다. (원본을 훼손하지 않는다.)
